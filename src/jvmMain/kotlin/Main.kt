@@ -30,6 +30,7 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
         state = rememberWindowState().maximizeUndecorated(),
         undecorated = true,
+        resizable = false,
         title = "Cobblestone - Mod Maker",
     ) {
         App()
